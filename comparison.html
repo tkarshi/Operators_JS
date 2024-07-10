@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparison</title>
+  </head>
+  <body>
+    <h1 id="demo"></h1>
+    <script>
+      //   let number1 = 1;
+      //   let number2 = 2;
+
+      //   if (number1 === number2) {
+      //     document.getElementById("demo").innerHTML = "Equal";
+      //   } else {
+      //     document.getElementById("demo").innerHTML = "NOT Equal";
+      //   }
+
+      //   if (number1 !== number2) {
+      //     document.getElementById("demo").innerHTML = "NOT Equal";
+      //   } else {
+      //     document.getElementById("demo").innerHTML = "Equal";
+      //   }
+
+      //   if (number1 < number2) {
+      //     document.getElementById("demo").innerHTML = "number 1 is big";
+      //   } else {
+      //     document.getElementById("demo").innerHTML = "number 2 is big";
+      //   }
+
+      //   let name = "This is My Name";
+      //   let error = "No exist";
+      //   let type = "admin";
+
+      //   let Output = (type = "admin") ? name : error;
+
+      //   document.getElementById("demo").innerHTML = Output;
+
+      let name = "This is My Name";
+      let error = "No exist";
+      let type = "user";
+
+      let Output = type == "admin" ? name : error;
+
+      document.getElementById("demo").innerHTML = Output;
+    </script>
+  </body>
+</html>

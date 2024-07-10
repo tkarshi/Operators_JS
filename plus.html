@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition</title>
+  </head>
+  <body>
+    <h1 id="add"></h1>
+
+    <h2 id="in"></h2>
+
+    <h2 id="de"></h2>
+
+    <script>
+      let x = 4;
+      let y = 6;
+      let r = 10;
+
+      let adding = x + y + r;
+
+      //   let increment = ++x;
+
+      //   let decrement = --y;
+
+      document.getElementById("add").innerHTML = adding;
+
+      //   document.getElementById("in").innerHTML = increment;
+
+      //   document.getElementById("de").innerHTML = decrement;
+
+      document.getElementById("in").innerHTML = x++;
+
+      document.getElementById("de").innerHTML = --r;
+    </script>
+  </body>
+</html>
